@@ -1,0 +1,26 @@
+.movie-item {
+  max-width: 150px;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .movie-item {
+    max-width: 350px;
+    font-size: 1.2rem;
+  }
+}
+
+.auth-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.navbar .navbar-brand {
+  font-size: x-large;
+  font-family: 'Sacramento', cursive;
+}
+
+$body-color: white;
+$body-bg: rgb(13, 13, 22);
+
+@import 'bootstrap';
