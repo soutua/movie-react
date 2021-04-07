@@ -51,7 +51,7 @@ const Details = () => {
         className="p-3"
         style={backgroundStyle(getBackdropImageUrl(movie, 1920))}
       >
-        <Container className="text-light p-4 overflow-auto">
+        <Container className="p-4 overflow-auto">
           <Image
             className="float-left mr-5 mb-3"
             src={getPosterImageUrl(movie, 350)}
